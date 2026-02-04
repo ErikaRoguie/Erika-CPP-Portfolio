@@ -1,0 +1,19 @@
+Erika-CPP-Portfolio/
+│
+├── README.md
+│
+├── Basics/
+│   ├── StudentInfo.cpp
+│   ├── VariablesDemo.cpp
+│
+├── InputOutput/
+│   ├── CandyBarSales.cpp
+│
+├── MathPrograms/
+│   ├── AreaOfRectangle.cpp
+│
+├── Games/
+│   ├── NumberGuessingGame.cpp
+│
+└── LoopsAndMenus/
+    ├── SimpleMenu.cpp
