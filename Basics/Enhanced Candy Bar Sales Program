@@ -1,0 +1,45 @@
+// Program Name: CandyBarSales.cpp
+// Author: Erika Sanders
+// Date Written: February 4, 2026
+// Class: CSC100AA or CIS162AB
+// Brief Description: Calculates how much a student
+// organization earns during its fund raising candy sale
+
+#include <iostream>
+#include <iomanip>   // for setprecision and fixed
+using namespace std;
+
+int main()
+{
+    int barsSold;
+    double pricePerBar;
+    double totalEarned;
+    char again;
+
+    do
+    {
+        // Prompt user for input
+        cout << "How many candy bars were sold? ";
+        cin >> barsSold;
+
+        cout << "How much is earned for each bar sold? ";
+        cin >> pricePerBar;
+
+        // Calculate earnings
+        totalEarned = barsSold * pricePerBar;
+
+        // Display result formatted to 2 decimals
+        cout << fixed << setprecision(2);
+        cout << "You have earned $" << totalEarned << endl;
+
+        // Ask if user wants to run again
+        cout << "\nWould you like to calculate another sale? (y/n): ";
+        cin >> again;
+        cout << endl;
+
+    } while (again == 'y' || again == 'Y');
+
+    cout << "Thank you for using Candy Bar Sales Program!\n";
+
+    return 0;
+}
