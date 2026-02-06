@@ -11,9 +11,7 @@ Erika-CPP-Portfolio/
 │
 ├── MathPrograms/
 │   ├── AreaOfRectangle.cpp
-│
-├── Games/
-│   ├── NumberGuessingGame.cpp
+│   ├──TwoNumbers.cpp
 │
 └── LoopsAndMenus/
     ├── SimpleMenu.cpp
