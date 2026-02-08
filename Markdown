@@ -12,6 +12,7 @@ Erika-CPP-Portfolio/
 ├── MathPrograms/
 │   ├── AreaOfRectangle.cpp
 │   ├──TwoNumbers.cpp
+|       restaurant_bill.cpp
 │
 └── LoopsAndMenus/
     ├── SimpleMenu.cpp
