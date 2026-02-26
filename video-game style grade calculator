@@ -1,0 +1,62 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    int score;
+
+    cout << "=== DUNGEON EXAM: SCORE CHECK ===\n";
+    cout << "Enter your score (0 - 100): ";
+    cin >> score;
+
+    // Input validation
+    if (score < 0 || score > 100)
+    {
+        cout << "⚠️  ERROR: Score must be between 0 and 100.\n";
+        return 0;
+    }
+
+    char grade;
+    string rank, reward;
+
+    // Grade + rank logic
+    if (score >= 90)
+    {
+        grade = 'A';
+        rank = "Legend";
+        reward = "🏆 Epic Trophy + 500 XP";
+    }
+    else if (score >= 80)
+    {
+        grade = 'B';
+        rank = "Hero";
+        reward = "🛡️ Rare Shield + 250 XP";
+    }
+    else if (score >= 70)
+    {
+        grade = 'C';
+        rank = "Adventurer";
+        reward = "🧪 Healing Potion + 120 XP";
+    }
+    else if (score >= 60)
+    {
+        grade = 'D';
+        rank = "Rookie";
+        reward = "🗡️ Wooden Sword + 60 XP";
+    }
+    else
+    {
+        grade = 'F';
+        rank = "Respawn Required";
+        reward = "💀 Back to Training (Try Again!)";
+    }
+
+    cout << "\n=== RESULTS ===\n";
+    cout << "Score: " << score << "\n";
+    cout << "Grade: " << grade << "\n";
+    cout << "Rank : " << rank << "\n";
+    cout << "Loot : " << reward << "\n";
+
+    return 0;
+}
