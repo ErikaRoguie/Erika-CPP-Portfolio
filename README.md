@@ -1,4 +1,4 @@
-# Erika Sanders – C++ and python Programming Portfolio
+# Erika Sanders – C++ Programming Portfolio
 
 Welcome to my C++ programming portfolio!  
 This repository contains beginner to intermediate level programs created while learning C++.
